@@ -58,3 +58,10 @@ document.getElementsByClassName("jumbotron")[0].getElementsByTagName('a')[1].add
 document.getElementsByClassName("row")[1].prepend(document.getElementsByClassName("col-md-4")[5] );
 }); // .prepend fonctionne comme une boucle , le 1er devient 2e , le 2e devient 3eme , etc sa fait une boucle !
 
+// Exercice 8 // 
+
+document.getElementsByClassName("jumbotron")[0].getElementsByTagName('a')[0].href = "#";
+document.getElementsByClassName("jumbotron")[0].getElementsByTagName('a')[0].addEventListener("click", function(){
+document.getElementsByClassName("row")[1].appendChild( document.getElementsByClassName("col-md-4")[0] );})
+
+// Exercice 9 // 
